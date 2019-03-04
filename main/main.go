@@ -435,7 +435,6 @@ func main()  {
 
 	// 获取浦发银行汇率信息
 	getHtml("http://ebank.spdb.com.cn","http://ebank.spdb.com.cn/net/QueryExchangeRate.do",pf)
-
 }
 func UTF82GB2312(s []byte)([]byte, error) {
 	var decodeBytes,_=simplifiedchinese.GB18030.NewDecoder().Bytes(s)
